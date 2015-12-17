@@ -1,0 +1,16 @@
+# Data folder & Outputs folder
+inputs/
+outputs/
+
+# ipython Notebooks
+notebooks/
+.Python
+
+# Compiled Python files
+*.pyc
+
+# Vim swap files
+*.swp
+
+# Backup files
+*.bak
