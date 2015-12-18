@@ -1,7 +1,3 @@
-# Data folder & Outputs folder
-inputs/
-outputs/
-
 # ipython Notebooks
 notebooks/
 .Python
