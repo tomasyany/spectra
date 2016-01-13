@@ -83,7 +83,7 @@ class Fit(object):
             inf_limit = self.x_obs[closest_index] - self.window/2
             sup_limit = self.x_obs[closest_index] + self.window/2
 
-            integrand = lambda s: continuum_level - Fit.gaussian(s, *best_param)
+            integrand = lambda s: - Fit.gaussian(s, *best_param)
             integral, err = quad(integrand, inf_limit, sup_limit)
 
 
