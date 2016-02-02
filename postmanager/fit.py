@@ -60,7 +60,7 @@ class Fit(object):
         continuum_level = mean(values_sides)
 
         try:
-            best_param = self.fit_gauss(peak_index, x, y)
+            best_param = self.fit_gauss(peak_index, x, y - continuum_level)
 
         except RuntimeError:
             # Compute integral with sum
